@@ -18,6 +18,12 @@ Identity added: /home/p590589/.ssh/id_ed25519 (cledson.spfc@gmail.com)
 verificar se esta funcionando:
 ssh -T git@github.com
 
+se precisar por algum motivo descartar as mudanças locais e sincronizar com o branch remoto, use:
+git fetch origin
+git reset --hard origin/main
+git pull
+
+
 **\*\***\***\*\*** N O D E J S **\*\***\*\*\*\***\*\***\***\*\***\*\*\*\***\*\***
 
 node -v
